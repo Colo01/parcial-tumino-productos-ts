@@ -1,0 +1,22 @@
+{
+  "name": "practica-2",
+  "version": "1.0.0",
+  "description": "Queremos realizar un sistema para administrar los empleados de una compañía.\r Hay 2 tipos de empleados: los que trabajan por hora y los que trabajan por mes. Los empleados que trabajan por hora tienen una cantidad de horas trabajadas y una tarifa por hora. Los empleados que trabajan por mes tienen un sueldo fijo mensual.\r Todos los empleados deben poder calcular su salario. Además, queremos poder calcular el costo total de la nómina de la compañía al final de un mes.\r Todos los empleados tienen la capacidad de registrar sus horas trabajadas, y el sistema puede calcular la cantidad de horas trabajadas en total en la compañía.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest && exit 1"
+  },
+  "keywords": [],
+  "author": "yo",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4"
+  }
+}
